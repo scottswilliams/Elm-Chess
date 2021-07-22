@@ -8,7 +8,7 @@ type Piece = Pawn | Knight | Bishop | Rook | Queen | King
 centerWeight : Float
 centerWeight = 0.5
 
-searchDepth = 2
+searchDepth = 1
 
 type alias Chessman =
  { piece : Piece,
